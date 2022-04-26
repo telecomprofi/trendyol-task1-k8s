@@ -14,6 +14,8 @@ cluster name: case-<name-surname>.abc
 network plugin: flannel
 dns mode: coredns
   
+#### 1.1 solution: https://github.com/telecomprofi/trendyol-task1-k8s/tree/main/1.k8s
+  
 #### 1.2- Setup an internal Prometheus server after installation to collect metrics from the cluster, and ensure it only covers a single node.
 #### 1.3 Make sure there are no other deployments on the Prometheus node.
 #### 1.4- Setup Ingress Controller DaemonSet and enable access to the deployed Prometheus server via the http 80 port.
