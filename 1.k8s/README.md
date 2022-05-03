@@ -35,6 +35,12 @@ ansible -i servers all --become-user root -m reboot
 
 ### kubespray config
 
+at local machine:
+sudo -i
+git clone https://github.com/southbridgeio/kubespray
+cd kubespray
+pip install -r requirements.txt
+
 ### kubespray install
 
 
