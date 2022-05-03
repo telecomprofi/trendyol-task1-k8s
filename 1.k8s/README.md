@@ -41,6 +41,14 @@ git clone https://github.com/southbridgeio/kubespray
 cd kubespray
 pip install -r requirements.txt
 
+
+update /etc/hosts
+192.168.4.79 k8s-master
+192.168.4.78 k8s-worker
+192.168.4.76 consul-prometheus-alertmanager-grafana
+192.168.4.77 elk-gitlab
+
+
 ### kubespray install
 
 
